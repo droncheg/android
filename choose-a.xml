@@ -4,22 +4,22 @@
            fetch="https://github.com" />
 
   <remote name="choose-a"
-           fetch="https://git.choose-a.name/choose-a"
-           review="https://review.choose-a.name/choose-a" />
+           fetch="https://git.choose-a.name"
+           review="https://review.choose-a.name" />
 
   <!-- remove unused/forked AOSP projects -->
   <include name="remove.xml" />
 
   <!-- choose-projects -->
-  <project path="android" name="android" remote="choose-a" revision="choose-7.1" />
+  <project path="android" name="choose-a/android" remote="choose-a" revision="choose-7.1" />
 
-  <project path="build" name="android_build" remote="choose-a" revision="choose-7.1" groups="pdk,tradefed" >
+  <project path="build" name="choose-a/android_build" remote="choose-a" revision="choose-7.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="choose-a" revision="choose-7.1" />
-  <project path="external/toybox" name="android_external_toybox" remote="choose-a" revision="choose-7.1" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="choose-a" revision="choose-7.1" />
-  <project path="system/core" name="android_system_core" remote="choose-a" revision="choose-7.1" />
+  <project path="external/libnfc-nci" name="choose-a/android_external_libnfc-nci" remote="choose-a" revision="choose-7.1" />
+  <project path="external/toybox" name="choose-a/android_external_toybox" remote="choose-a" revision="choose-7.1" />
+  <project path="packages/apps/Music" name="choose-a/android_packages_apps_Music" remote="choose-a" revision="choose-7.1" />
+  <project path="system/core" name="choose-a/android_system_core" remote="choose-a" revision="choose-7.1" />
 
 </manifest>
