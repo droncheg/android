@@ -17,9 +17,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="external/libnfc-nci" name="choose-a/android_external_libnfc-nci" remote="choose-a" revision="choose-7.1" />
-  <project path="external/toybox" name="choose-a/android_external_toybox" remote="choose-a" revision="choose-7.1" />
-  <project path="packages/apps/Music" name="choose-a/android_packages_apps_Music" remote="choose-a" revision="choose-7.1" />
-  <project path="system/core" name="choose-a/android_system_core" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_external_libnfc-nci" path="external/libnfc-nci" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_packages_apps_Music" path="packages/apps/Music" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-7.1" />
+
+  <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-7.1" />
 
 </manifest>
