@@ -19,7 +19,14 @@
 
   <project name="choose-a/android_external_libnfc-nci" path="external/libnfc-nci" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-7.1" />
-  <project name="choose-a/android_packages_apps_Music" path="packages/apps/Music" remote="choose-a" revision="choose-7.1" />
+
+  <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_frameworks_native" path="frameworks/native" remote="choose-a" revision="choose-7.1" />
+
+  <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="choose-a" revision="choose-7.1" />
+
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-7.1" />
