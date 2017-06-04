@@ -30,6 +30,7 @@
   <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_system_sepolicy" path="system/sepolicy" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-7.1" />
