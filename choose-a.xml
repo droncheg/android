@@ -11,7 +11,8 @@
   <include name="remove.xml" />
 
   <!-- choose-projects -->
-  <project path="android" name="choose-a/android" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android" path="android" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_bionic" path="bionic" remote="choose-a" revision="choose-7.1" />
 
   <project path="build" name="choose-a/android_build" remote="choose-a" revision="choose-7.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
