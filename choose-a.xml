@@ -4,7 +4,7 @@
            fetch="https://github.com" />
 
   <remote name="choose-a"
-           fetch="https://git.choose-a.name"
+           fetch="https://github.com"
            review="https://review.choose-a.name" />
 
   <!-- remove unused/forked AOSP projects -->
