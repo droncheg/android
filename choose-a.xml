@@ -47,4 +47,6 @@
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-7.1" />
 
+  <project path="vendor/broadcom/wlan" name="sonyxperiadev/vendor-broadcom-wlan" groups="device" remote="github" revision="master" />
+  <project path="vendor/nxp" name="sonyxperiadev/vendor-nxp" groups="device" remote="github" revision="master" />
 </manifest>
