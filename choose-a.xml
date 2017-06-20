@@ -34,6 +34,7 @@
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-7.1" />
 
