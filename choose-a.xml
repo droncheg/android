@@ -41,6 +41,8 @@
   <project name="choose-a/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-7.1" />
