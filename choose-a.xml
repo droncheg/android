@@ -44,6 +44,8 @@
   <project name="choose-a/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-7.1" />
 
