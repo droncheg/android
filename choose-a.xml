@@ -36,7 +36,12 @@
   <project name="choose-a/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-7.1" />
 
+  <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_hardware_sony_location" path="hardware/sony/location" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-7.1" />
