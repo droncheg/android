@@ -557,5 +557,6 @@
 
   <!-- choose-a -->
   <include name="choose-a.xml" />
+  <include name="twrp.xml" />
 
 </manifest>
