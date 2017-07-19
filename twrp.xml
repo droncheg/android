@@ -12,5 +12,6 @@
 
   <!-- twrp -->
   <project name="choose-a/android_bootable_recovery" path="bootable/recovery" remote="choose-a" revision="choose-7.1" />
+  <project name="choose-a/android_external_unzip" path="external/unzip" remote="choose-a" revision="choose-7.1" />
 
 </manifest>
