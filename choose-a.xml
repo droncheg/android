@@ -7,6 +7,8 @@
            fetch="https://github.com"
            review="https://review.choose-a.name" />
 
+  <remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
+
   <!-- remove unused/forked AOSP projects -->
   <include name="remove.xml" />
 
@@ -61,6 +63,8 @@
 
   <project name="sonyxperiadev/vendor-broadcom-wlan" path="vendor/broadcom/wlan" groups="device" remote="github" revision="master" />
   <project name="sonyxperiadev/vendor-nxp" path="vendor/nxp" groups="device" remote="github" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+
   <project name="sonyxperiadev/json-c" path="vendor/oss/json-c" remote="github" revision="master" />
 
 </manifest>
