@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote name="choose-a"
+           fetch="https://github.com"
+           review="https://review.choose-a.name" />
+
+  <remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
+
+  <!-- remove unused/forked AOSP projects -->
+  <include name="remove.xml" />
+
+  <!-- choose-projects -->
+  <project name="choose-a/android" path="android" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_bionic" path="bionic" remote="choose-a" revision="choose-8.0" />
+
+  <project path="build/make" name="choose-a/android_build" remote="choose-a" revision="choose-8.0" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project name="choose-a/android_external_tinycompress" path="external/tinycompress" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_external_svox" path="external/svox" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_hardware_libhardware" path="hardware/libhardware" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_sony_location" path="hardware/sony/location" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_system_extras" path="system/extras" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_system_sepolicy" path="system/sepolicy" remote="choose-a" revision="choose-8.0" />
+
+  <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-8.0" />
+
+  <project name="sonyxperiadev/vendor-broadcom-wlan" path="vendor/broadcom/wlan" groups="device" remote="github" revision="master" />
+  <project name="sonyxperiadev/vendor-nxp" path="vendor/nxp" groups="device" remote="github" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+
+  <project name="sonyxperiadev/json-c" path="vendor/oss/json-c" remote="github" revision="master" />
+
+</manifest>
