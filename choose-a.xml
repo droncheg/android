@@ -25,6 +25,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="choose-a/android_build_soong" remote="choose-a" revision="choose-8.0" groups="pdk">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <project name="choose-a/android_external_tinycompress" path="external/tinycompress" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-8.0" />
