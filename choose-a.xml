@@ -46,6 +46,7 @@
   <project name="choose-a/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-8.0" />
 
   <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-8.0" />
