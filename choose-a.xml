@@ -30,6 +30,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project name="choose-a/android_development" path="development" remote="choose-a" revision="choose-8.0" groups="pdk-cw-fs,pdk-fs" />
+  
   <project name="choose-a/android_external_tinycompress" path="external/tinycompress" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_external_svox" path="external/svox" remote="choose-a" revision="choose-8.0" />
