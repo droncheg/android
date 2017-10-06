@@ -30,23 +30,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project name="choose-a/android_development" path="development" remote="choose-a" revision="choose-8.0" groups="pdk-cw-fs,pdk-fs" />
-  
-  <project name="choose-a/android_external_tinycompress" path="external/tinycompress" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-8.0" />
-
   <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-8.0" />
-
-  <project name="choose-a/android_hardware_libhardware" path="hardware/libhardware" remote="choose-a" revision="choose-8.0" />
-
-  <project name="choose-a/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="choose-a" revision="choose-8.0" />
 
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-8.0" />
 
@@ -62,15 +51,10 @@
   <project name="choose-a/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="choose-a" revision="choose-8.0" />
 
   <project name="choose-a/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="choose-a" revision="choose-8.0" groups="pdk-fs" />
 
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_system_extras" path="system/extras" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-8.0" />
-  <project name="choose-a/android_system_sepolicy" path="system/sepolicy" remote="choose-a" revision="choose-8.0" />
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-8.0" />
 
