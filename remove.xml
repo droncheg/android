@@ -33,6 +33,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
 
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
 
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
@@ -77,5 +78,6 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/media" />
 
 </manifest>

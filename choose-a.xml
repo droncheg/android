@@ -31,6 +31,7 @@
   </project>
 
   <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-8.0" />
 
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-8.0" />
@@ -55,6 +56,7 @@
   <project name="choose-a/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="choose-a" revision="choose-8.0" groups="pdk-fs" />
 
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-8.0" />
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-8.0" />
 
