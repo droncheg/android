@@ -50,6 +50,7 @@
   <project name="choose-a/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="choose-a" revision="choose-8.0" />
+  <project name="choose-a/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-8.0" />
   <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-8.0" />
 
