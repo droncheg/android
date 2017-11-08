@@ -23,7 +23,6 @@
   <project name="choose-a/android_external_libnfc-nci" path="external/libnfc-nci" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_external_tinycompress" path="external/tinycompress" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_external_toybox" path="external/toybox" remote="choose-a" revision="choose-7.1" />
-  <project name="choose-a/android_external_svox" path="external/svox" remote="choose-a" revision="choose-7.1" />
 
   <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-7.1" />
   <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-7.1" />
