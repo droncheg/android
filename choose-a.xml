@@ -34,8 +34,9 @@
   <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-8.1" />
 
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-8.1" />
-  <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-8.1" />
+  <project name="choose-a/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="choose-a" revision="choose-8.1" />
+  <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-8.1" />
