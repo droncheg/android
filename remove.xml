@@ -39,6 +39,8 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
+  <remove-project name="kernel/tests" />
+  
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
 
