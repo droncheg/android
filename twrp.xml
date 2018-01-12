@@ -12,5 +12,6 @@
 
   <!-- twrp -->
   <project name="choose-a/android_bootable_recovery" path="bootable/recovery" remote="choose-a" revision="choose-8.1" />
+  <project name="choose-a/android_external_busybox" path="external/busybox" remote="choose-a" revision="choose-8.1" />
 
 </manifest>
